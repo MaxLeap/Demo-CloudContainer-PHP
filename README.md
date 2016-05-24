@@ -56,7 +56,7 @@ INSERT INTO `country` VALUES ('US','United States',278357000);
 'username' => 'xxxxxxxxxxxx',
 'password' => 'xxxxxxxxxxxx',
 ```
-3. 按照指示，部署改代码到cloudcontainer上，具体步骤参考https://github.com/MaxLeap/Docs/blob/master/zh/UserManual/Guide/CloudContainer.md 中的php部分
+3. 按照指示，部署该代码到cloudcontainer上，具体步骤参考https://github.com/MaxLeap/Docs/blob/master/zh/UserManual/Guide/CloudContainer.md 中的php部分
 4. 由于安全问题，gii 功能不能访问。
 5. 浏览器访问 http://xxxx.xxxx.xxxx/web/index.php?r=country, 即可提供一个标准的CRUD应用。
 
