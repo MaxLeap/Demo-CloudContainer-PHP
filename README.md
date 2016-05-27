@@ -52,7 +52,7 @@ INSERT INTO `country` VALUES ('US','United States',278357000);
 2. 修改config/db.php, 修改数据库相关数据，host连接，dbname,username以及password都可以从maxleap上关联的应用获得。配置如下：
 
 ```
-'dsn' => 'mysql:host=circev1.uat.maxleap.cn:3307/xxxxxxxxxxxxx;dbname=xxxxxxxxxxxxxxx',
+'dsn' => 'mysql:host=circev1.maxleap.cn:3307/xxxxxxxxxxxxx;dbname=xxxxxxxxxxxxxxx',
 'username' => 'xxxxxxxxxxxx',
 'password' => 'xxxxxxxxxxxx',
 ```
